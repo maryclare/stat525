@@ -1,0 +1,16 @@
+---
+layout: stat525
+---
+  
+Homework
+-------
+
+## General Guidelines
+* Always due by 8:30am on Thursdays, submitted before or in class. Late homework will not be accepted.
+* Raw `R` output alone will not be accepted as a solution.
+* Figures and tables must be clearly and fully annotated.
+* Show your work!!!
+
+
+## Assignments
+* [Homework 1](https://maryclare.github.io/stat525/content/homework/hw_1.pdf)
