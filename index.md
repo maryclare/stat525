@@ -4,6 +4,9 @@ layout: stat525
 
 News
 -------
+* Monday, 1/27/20
+  - Because we did not get through all of the relevant material on Thursday 1/23/20, I have adjusted [Homework 1](https://maryclare.github.io/stat525/content/homework/hw_1.pdf), due on Thursday 1/30/20. We will work through problems 5., 6., and 7. in class on Tuesday 1/28/20.
+  - The [syllabus](https://maryclare.github.io/stat697/content/syllabus_525_spring2020.pdf) has been updated to include our teaching assistant Dongah Kim's office hours. They will be 2:30PM-3:30PM on Wednesdays in her office LGRT 1435N.
 * Sunday, 1/26/20
   - The [syllabus](https://maryclare.github.io/stat697/content/syllabus_525_spring2020.pdf) has been updated to include information about student disability services at UMass.
 * Thursday, 1/23/20
