@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Sunday, 1/26/20
+  - The [syllabus](https://maryclare.github.io/stat697/content/syllabus_525_spring2020.pdf) has been updated to include information about student disability services at UMass.
 * Thursday, 1/23/20
    - I have posted annotated code from Thursday's class that gives some examples of working with `R`'s functions for working with the normal, chi-square, t, and F distributions. I have also posted some code we didn't get to in class, which shows the examples from Appendix A subsections A.6-A.9 worked up in `R`. All of this code has been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Wednesday, 1/22/20
