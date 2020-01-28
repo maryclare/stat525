@@ -8,10 +8,10 @@ set.seed(1)
 # Some normal distribution examples!
 # First, we're going to compute normal distribution quantiles,
 # Here - let's compute P(z <= 2), for normal z with mean 0 and variance 1
-zA1 <- 2 
 help(pnorm) # This brings you to some information about the pnorm function,
 # which takes a value and returns the corresponding percentile of a 
 # normal distribution
+zA1 <- 2 
 pnorm(zA1, mean = 0, sd = 1) # Compare this what's in the textbook!
 
 # Now let's look at P(z <= -2) for normal z with mean 0 and variance 1, 
@@ -41,6 +41,13 @@ lines(vals, dnorm(vals, mean = 0, sd = 1),
       col = "blue")
 # Draw a vertical line at the simulation mean
 abline(v = mean(sims), col = "red")
+alpha <- 0.95
+qnorm(alpha, mean = 0, sd = 1)
+abline(v = qnorm(alpha, mean = 0, sd = 1), 
+       col = "red",
+       lty = 2)
+mean(sims)
+var(sims)
 
 #### This is where we stopped in class on Thursday 1/23 #### 
 
@@ -63,7 +70,8 @@ sims2 <- rnorm(nsim)/sqrt(rchisq(nsim, df = nu)/nu)
 quantile(sims2, probs = 0.9) # Quantiles are the same!
 
 hist(sims1, freq = FALSE, breaks = 200)
-hist(sims2, freq = FALSE, add = TRUE, col = rgb(1, 0, 0, 0.5),
+hist(sims2, freq = FALSE, 
+     add = TRUE, col = rgb(1, 0, 0, 0.5),
      breaks = 200) 
 vals <- seq(-5, 5, length.out = 100)
 lines(vals, dt(vals, df = nu), lwd = 2)
