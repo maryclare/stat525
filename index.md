@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Saturday, 2/01/20
+   - Solutions to Homework 1 have been posted on the [Homework](https://maryclare.github.io/stat525/homework/) page.
 * Tuesday, 1/28/20
    - I have updated the [annotated code that gives some examples of working with `R`'s functions for working with the normal, chi-square, t, and F distributions](https://maryclare.github.io/stat697/content/code/appendix_a_1-5.R).
    - I have added some helpful links for learning more about `R`, `.Rmd` files, and R Markdown to the [notes page](https://maryclare.github.io/stat525/notes.html).
