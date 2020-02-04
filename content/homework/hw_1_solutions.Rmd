@@ -4,6 +4,23 @@ date: "Due: Thursday 1/30/20 by 8:30am"
 output: pdf_document
 ---
 
+\color{blue}
+
+Rubric: 
+
+* 1 point for 1. if "I have installed `R`" was printed/written somewhere on the homework.
+* Maximum of 3 points for 2., determined as follows:
+   - 0 points for no solutions whatsoever or `R` output only;
+   - 1 point for an honest effort but very few correct answers or `R` output only plus a figure;
+   - 2 points for mostly correct answers but at least one substantial issue;
+   - 3 points for nearly/exactly correct.
+* Maximum of 2 points each for 3. and 4., determined as follows:
+   - 0 points for no solutions whatsoever or `R` output only;
+   - 1 point for an honest effort but at least one substantial issue;
+   - 2 points for nearly/exactly correct.
+    
+\color{black}
+
 2.  
 
 (a) Obtain a 90 percent confidence interval for $\mu$ when $n = 424$, $\bar{Y} = 6.09$, and $s = 2.78$. 
@@ -87,7 +104,7 @@ int <- qt(c(alpha/2, 1 - alpha/2),
 pval <- 2*pt(abs(t.star), df = n - 1, lower.tail = FALSE)
 ```
 
-We fail to reject the null hypothesis at level $\alpha = 0.15$, because the test statistic is equal to `r round(t.star, 2)`, which is inside of the acceptance region (`r round(int[1], 2)`, `r round(int[2], 2)`), and the p-value, which is $5.046509\times10^{-14}$ is much lower than $\alpha = 0.15$.
+We reject the null hypothesis at level $\alpha = 0.15$, because the test statistic is equal to `r round(t.star, 2)`, which is outside of the acceptance region (`r round(int[1], 2)`, `r round(int[2], 2)`), and the p-value, which is $5.046509\times10^{-14}$ is much lower than $\alpha = 0.15$.
 
 \color{black}
 
@@ -124,9 +141,10 @@ int <- qt(c(alpha/2, 1 - alpha/2),
           df = n1 + n2 - 2)
 pval <- 2*pt(abs(t.star), df = n1 + n2 - 2, lower.tail = FALSE)
 ```
-\color{black}
 
 We reject the null hypothesis at level $\alpha = 0.01$, because the test statistic is equal to `r round(t.star, 2)`, which is outside of the acceptance region (`r round(int[1], 2)`, `r round(int[2], 2)`), and the p-value, which is $8.934652\times10^{-13}$ is much lower than $\alpha = 0.01$.
+\color{black}
+
 
 6. (In class, not to be submitted) 
 (a) Obtain a 85 percent confidence interval for $\sigma^2$ when $n = 424$, $\bar{Y} = 6.09$, and $s = 2.78$. 
