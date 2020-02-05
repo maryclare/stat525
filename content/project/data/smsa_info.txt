@@ -1,0 +1,33 @@
+Datafile Name: SMSA 
+Datafile Subjects: Environment 
+Story Names: Air Pollution and Mortality 
+Reference: U.S. Department of Labor Statistics 
+Authorization: free use 
+Description: Properties of 60 Standard Metropolitan Statistical Areas (a standard Census Bureau designation of the region
+around a city) in the United States, collected from a variety of sources.
+
+The data include information on the social and economic conditions in these areas, on their climate, and some indices of air
+pollution potentials. 
+Number of cases: 60 
+Variable Names: 
+
+   1.city: City name 
+   2.JanTemp: Mean January temperature (degrees Farenheit) 
+   3.JulyTemp: Mean July temperature (degrees Farenheit) 
+   4.RelHum: Relative Humidity 
+   5.Rain: Annual rainfall (inches) 
+   6.Mortality: Age adjusted mortality 
+   7.Education: Median education 
+   8.PopDensity: Population density 
+   9.%NonWhite: Percentage of non whites 
+  10.%WC: Percentage of white collar workers 
+  11.pop: Population 
+  12.pop/house: Population per household 
+  13.income: Median income 
+  14.HCPot: HC pollution potential 
+  15.NOxPot: Nitrous Oxide pollution potential 
+  16.SO2Pot: Sulfur Dioxide pollution potential 
+  17.NOx: Nitrous Oxide 
+
+
+

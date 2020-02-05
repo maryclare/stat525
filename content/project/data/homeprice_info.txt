@@ -1,0 +1,38 @@
+Home Prices Using Realtor Data 
+
+Description
+
+The data file contains information on 76 single-family homes in Eugene, Oregon during 2005.
+At the time the data were collected, the data submitter was preparing to place his house on
+the market and it was important to come up with a reasonable asking price. Whereas realtors
+use experience and local knowledge to subjectively value a house based on its characteristics
+(size, amenities, location, etc.) and the prices of similar houses nearby, regression analysis
+provides an alternative that more objectively models local house prices using these same
+data.
+
+The data set contains the following columns:
+  	Variable 	  	Description
+      id            ID number
+    Price           sale price (thousands of dollars)
+     Size           floor size (thousands of square feet)
+      Lot           lot size category (from 1 to 11)
+     Bath           number of bathrooms (with half-bathrooms counting as 0.1)
+      Bed           number of bedrooms (between 2 and 6)
+  BathBed           interaction of Bath times Bed
+     Year           year built
+      Age           age (standardized: (Year-1970)/10)
+    Agesq           Age squared
+   Garage           garage size (0, 1, 2, or 3 cars) 
+   Status           act (active listing), pen (pending sale), or sld (sold)
+   Active           indicator for active listing (reference: pending or sold)
+     Elem           nearest elementary school (edgewood, edison, harris, adams, crest, or parker)
+   Edison           indicator for Edison Elementary (reference: Edgewood Elementary)
+   Harris           indicator for Harris Elementary (reference: Edgewood Elementary)
+    Adams           indicator for Adams Elementary (reference: Edgewood Elementary)
+    Crest           indicator for Crest Elementary (reference: Edgewood Elementary)
+   Parker           indicator for Parker Elementary (reference: Edgewood Elementary) 
+
+
+  
+      
+

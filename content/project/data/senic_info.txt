@@ -1,0 +1,45 @@
+Hospital length of stay. 
+
+
+Description 
+The Study on the Efficacy of Nosocomial Infection Control (SENIC) was designed to 
+determine whether infection surveillance and control programs in the U.S. have reduced 
+the rates of nosocomial (hospital- acquired) infection. 
+
+One may be interested here in knowing if medical school affiliation (yes/no), 
+and region of the U.S. are associated with mean length of hospital stay in days. 
+
+
+Data 
+
+This data in the file senic.dat consists of a random sample of 113 hospitals 
+selected from the original 338 hospitals surveyed.
+
+Each line of the data set has an identification number and 
+provides information on 11 other variables for a single hospital. 
+The data presented here are for the 1975-76 study period. 
+
+The 12 variables are:
+
+ID        : Identification number (1-13)
+LOS       : Length of stay (Average length of all patients in Hospital (in days))
+Age       : Average age of patients (in years)
+IR        : Infection risk (Average estimated probability of Acquiring infection in hospital (in percent))
+RCR       : Routine culturing ratio (Ratio of number of cultures performed To number of patients 
+             without signs or symptoms of hospital-acquired infection, times 100)
+RCX       : Routine chest X- ray ratio ( Ratio of number of X-rays performed to number of 
+            patients without signs or symptoms of pneumonia, times 100)
+Beds      : Number of beds (Average number of beds in hospital during study period)
+Univ      : Medical school affiliation (1=Yes, 2=No)
+Region    : Region Geographic region (1=NE, 2=NC, 3=S, 4=W)
+Census    : Average daily census (Average number of patients in hospital per day during study period)
+
+Nurses    : Number of nurses (Average number of full-time equivalent registered and 
+            licensed practical nurses during study period 
+            (number full time plus one half the number part time) )
+Facilities : Available facilities and services (Percent of 35 potential facilities and 
+             services that are provided by the hospital)
+
+
+
+
