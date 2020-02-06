@@ -10,6 +10,7 @@ Homework
 * Raw `R` output alone will not be accepted as a solution.
 * Figures and tables must be clearly and fully annotated.
 * Show your work!!!
+* Use `R` packages and functions we have not discussed in class at your own risk. You will not be marked down for using them if your solutions are correct, but you may not get partial credit if your solutions are incorrect.
 
 
 ## Assignments
