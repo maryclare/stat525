@@ -5,6 +5,7 @@ layout: stat525
 News
 -------
 * Wednesday, 2/05/20
+   - [Homework 2](https://maryclare.github.io/stat525/content/homework/hw_2.pdf) has been posted.
    - Links to the project data sets have been added to the [list of possible project topics](https://maryclare.github.io/stat525/content/ieprojecttopics.pdf).
 * Saturday, 2/01/20
    - Solutions to Homework 1 have been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
