@@ -6,6 +6,7 @@ News
 -------
 * Wednesday, 2/12/20
    - [Homework 2](https://maryclare.github.io/stat525/content/homework/hw_2.pdf) has been revised, make sure you look at the most recent version!
+   - Added code from class that explains how to load the homework data into `R` to the [Notes](https://maryclare.github.io/stat525/notes.html) page.
 * Wednesday, 2/05/20
    - [Homework 2](https://maryclare.github.io/stat525/content/homework/hw_2.pdf) has been posted.
    - Links to the project data sets have been added to the [list of possible project topics](https://maryclare.github.io/stat525/content/ieprojecttopics.pdf).
