@@ -4,6 +4,10 @@ layout: stat525
 
 News
 -------
+* Thursday, 2/13/20
+   - [Homework 3](https://maryclare.github.io/stat525/content/homework/hw_3.pdf) has been posted.
+   - Added code from class that uses `lm`for regression  [Notes](https://maryclare.github.io/stat525/notes.html) page.
+   - Added code that shows how to read in project data files of different types to the   [Project](https://maryclare.github.io/stat525/project.html) page.
 * Wednesday, 2/12/20
    - [Homework 2](https://maryclare.github.io/stat525/content/homework/hw_2.pdf) has been revised, make sure you look at the most recent version!
    - Added code from class that explains how to load the homework data into `R` to the [Notes](https://maryclare.github.io/stat525/notes.html) page.

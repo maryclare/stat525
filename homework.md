@@ -14,7 +14,11 @@ Homework
 
 
 ## Assignments
+* Homework 3: [`hw_3.pdf`](https://maryclare.github.io/stat525/content/homework/hw_3.pdf)
 * Homework 2: [`hw_2.pdf`](https://maryclare.github.io/stat525/content/homework/hw_2.pdf)
-  - Data for Homework 2: [`crime`](https://maryclare.github.io/stat525/content/homework/crime.RData)
 * Homework 1: [`hw_1.pdf`](https://maryclare.github.io/stat525/content/homework/hw_1.pdf)
   - Solutions: [`hw_1_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.pdf), [`hw_1_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.Rmd)
+  
+## Data for Assignments
+* [`muscle`](https://maryclare.github.io/stat525/content/homework/muscle.RData)
+* [`crime`](https://maryclare.github.io/stat525/content/homework/crime.RData)
