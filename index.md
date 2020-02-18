@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Tuesday, 2/18/20
+   - Solutions to Homework 2 have been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
 * Thursday, 2/13/20
    - [Homework 3](https://maryclare.github.io/stat525/content/homework/hw_3.pdf) has been posted.
    - Added code from class that uses `lm`for regression  [Notes](https://maryclare.github.io/stat525/notes.html) page.
