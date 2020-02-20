@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Thursday, 2/20/20
+   - [Homework 4](https://maryclare.github.io/stat525/content/homework/hw_4.pdf) has been posted.
 * Wednesday, 2/19/20
    - I have added some `R` hints for [Homework 3](https://maryclare.github.io/stat525/content/homework/hw_3.pdf).
 * Tuesday, 2/18/20
