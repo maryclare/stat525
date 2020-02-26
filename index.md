@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Tuesday, 2/25/20
+   - Office hours for Wednesday 2/26/20 have been rescheduled to 8:30-9:30am and 4:00-5:00pm.
 * Thursday, 2/20/20
    - [Homework 4](https://maryclare.github.io/stat525/content/homework/hw_4.pdf) has been posted.
 * Wednesday, 2/19/20
