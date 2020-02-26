@@ -6,6 +6,7 @@ News
 -------
 * Wednesday, 2/26/20
    - Solutions to Homework 3 have been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
+   - A few small corrections have been made to [Homework 4](https://maryclare.github.io/stat525/content/homework/hw_4.pdf).
 * Tuesday, 2/25/20
    - Office hours for Wednesday 2/26/20 have been rescheduled to 8:30-9:30am and 4:00-5:00pm.
 * Thursday, 2/20/20
