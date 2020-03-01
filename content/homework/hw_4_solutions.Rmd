@@ -1,0 +1,305 @@
+---
+title: "Homework 4 Solutions"
+date: "Due: Thursday 2/20/20 by 8:30am"
+output: pdf_document
+---
+
+\color{blue}
+
+Rubric: 
+
+* Maximum of 2 points each for 1. and 2., determined as follows:
+   - 0 points for no solutions whatsoever or incomplete solutions;
+   - 1 point for solutions provided for each part, but at least one incorrect solution;
+   - 2 points for correct solutions to each part;
+* Maximum of 3 points for 3. and 4., determined as follows:
+   - 0 points for no solutions whatsoever or `R` output only;
+   - 1 point for an honest effort but very few correct answers or `R` output only plus a figure;
+   - 2 points for mostly correct answers but at least one substantial issue;
+   - 3 points for nearly/exactly correct.
+    
+\color{black}
+
+
+1. Think back to Problem 1 from Homeworks 2 and 3. 
+Suppose Instagram magically knew that every time the number of times user $i$ purchases a product, denoted by $Y_i$, is related to the number of times the product has been advertised to user $i$, denoted by $X_i$, as follows:
+
+$$ Y_i = 1 + 2 X_i + \epsilon_i $$
+
+where $\epsilon_i$ is a *normal* random error term with mean $E\left\{\epsilon_i\right\} = 0$ and variance $\sigma^2\left\{\epsilon_i\right\} = 0.1$; $\epsilon_i$ and $\epsilon_j$ are uncorrelated so that their covariance is zero (i.e., $\sigma\left\{\epsilon_i, \epsilon_j\right\} = 0$ for all $i\neq j$) for $i = 1, \dots n$.
+
+
+(a) Using `R`, make a plot with three panels. You can make a single plot with three panels by typing `par(mfrow = c(1, 3))` before running any lines of code that create plots. Plot the density of the $Y_i$ for $X_i = 0$, $X_i = 1$, and $X_i = 10$, using a separate panel for each value of $X_i$. Ensure that the axes are the same across all three plots.
+
+\color{blue}
+```{r}
+par(mfrow = c(1, 3))
+y.vals <- seq(-1, 13, length.out = 1000)
+dens.vals1 <- dens.vals2 <- dens.vals3 <- rep(NA, length(y.vals))
+for (i in 1:length(y.vals)) {
+  dens.vals1[i] <- dnorm(y.vals[i], mean = 1, sd = sqrt(0.01))
+  dens.vals2[i] <- dnorm(y.vals[i], mean = 1 + 2, sd = sqrt(0.01))
+  dens.vals3[i] <- dnorm(y.vals[i], mean = 1 + 10, sd = sqrt(0.01))
+}
+plot(y.vals, dens.vals1, type = "l", xlab = expression(Y[i]), ylab = "Density",
+     main = expression(paste(X[i], "=0", sep = "")))
+plot(y.vals, dens.vals2, type = "l", xlab = expression(Y[i]), ylab = "Density",
+     main = expression(paste(X[i], "=1", sep = "")))
+plot(y.vals, dens.vals3, type = "l", xlab = expression(Y[i]), ylab = "Density",
+     main = expression(paste(X[i], "=10", sep = "")))
+```
+\color{black}
+
+Suppose we were actually able to work with Instagram and conduct an experiment and we randomly selected $n = 10$ of the students in our class. We sent $X_i$ ads for coffee to student $i$ over the course of one day, and recorded $Y_i$, the number of ounces of coffee student $i$ purchased the following week. 
+
+(b) Suppose that after the experiment concluded, I told you that I fit a simple linear regression model to the data, modeling $Y_i$ as a linear function of $X_i$. Imagine that I told you that when I tested the null hypothesis $H_0: \beta_1 \geq 0$ versus the alternative $H_a: \beta_1 < 0$, I failed to reject $H_0$. Would you conclude that there is no linear association between $X$ and $Y$?
+
+\color{blue}
+I would not concude that there is *no* linear association between $X$ and $Y$. Failing to reject this null means failing to reject that $\beta_1 \geq 0$, which includes the possibility that there is no linear association between $X$ and $Y$ as well as the possibility that $X$ and $Y$ are linearly related with $\beta_1 > 0$.
+\color{black}
+
+Suppose that I decided to share the results of the regression with you all.
+
+```{r, echo=FALSE}
+set.seed(1)
+n <- 10
+X <- sample(0:10, n)
+Y <- rnorm(n, 0.5 + 2*X, sd = 20)
+```
+
+```{r, echo = TRUE}
+summary(lm(Y~X))
+```
+
+(c) Imagine that an Instagram executive came to class, saw the regression results, and stated "The message I got here is that the more coffee advertisements we send, the less coffee people drink!" Would you agree or disagree? Explain.
+
+\color{blue}
+I would disagree, because although the estimate of $b_1$ is negative, suggesting that one additional advertisement would correspond to average consumption of one fewer ounces consumed per day, the probability of observing a value of $b_1$ this extreme if $\beta_1$ were really equal to $0$ would be $0.591$. 
+
+\color{black}
+
+2. Refer back to the Toluca Company example we have discussed in class. The  `toluca` data has been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
+
+```{r, echo = TRUE, echo = FALSE}
+load("~/Dropbox/Teaching/STAT525-2020/stat525/content/homework/toluca.RData")
+X <- data$X
+Y <- data$Y
+linmod <- lm(Y~X)
+summary(linmod)
+```
+
+(a) Label $b_0$, $s\left\{b_0\right\}$, $\frac{b_0}{s\left\{b_0\right\}}$, $b_1$, $s\left\{b_1\right\}$, $\frac{b_1}{s\left\{b_1\right\}}$  and $s$ on the `R` output given above. 
+
+\color{blue}
+
+* From the line `(Intercept)   62.366     26.177   2.382   0.0259 *  `, we have $b_0 = 62.366$, $s\left\{b_0\right\}= 26.177$, and $\frac{b_0}{s\left\{b_0\right\}} = 2.382$.
+* From the line `X              3.570      0.347  10.290 4.45e-10 ***`, we have $b_1 = 3.570$, $s\left\{b_1\right\}= 0.347$, and $\frac{b_1}{s\left\{b_1\right\}} = 10.290$.
+* From the line `Residual standard error: 48.82 on 23 degrees of freedom`, we have $s = 48.82$.
+
+\color{black}
+
+Simulations can be very helpful for building an intuition to interpreting intervals and test results. Using the values of $b_0$ and $s$ from (a) and `rnorm`, let's simulate $k = 1,\dots, 1,000$ synthetic datasets $Y^{\left(k\right)}_1, \dots, Y^{\left(k\right)}_{25}$  according to:
+
+$$
+Y_i^{\left(k\right)} = b_0 + \epsilon_i^{\left(k\right)}\text{, \quad} \epsilon_i \stackrel{i.i.d.}{\sim}\text{normal}\left(0, s^2 \right)\text{\quad  for } i = 1, \dots, 25
+$$
+We can think of this as the null model when we are considering the null hypothesis $\beta_1 = 0$, plugging in our estimates of the remaining parameters $\beta_0$ and $\sigma^2$ which are unknown. The simulated values $Y^{\left(k\right)}_1, \dots, Y^{\left(k\right)}_{25}$ represent alternative realizations of the response that we might have observed if $\beta_1 = 0$, e.g. responses we might have observed if the Toluca data were collected in another universe.
+
+For each of the $k = 1, \dots, 1,000$ synthetic datasets, we will perform a level-$\alpha = 0.05$ test of the null hypothesis that $\beta_1 = 0$, and record whether or not we reject the null hypothesis.
+```{r, eval = TRUE, echo = TRUE}
+set.seed(1)
+reject <- rep(NA, 1000)
+for (i in 1:length(reject)) {
+  Y.sim <- rnorm(n = 25, mean = 62.366, sd = 48.82)
+  linmod <- lm(Y.sim~X)
+  b1 <- summary(linmod)$coef["X", "Estimate"]
+  sb1 <- summary(linmod)$coef["X", "Std. Error"]
+  reject[i] <- !((b1 + qt(0.05/2, df = 23)*sb1) <= 0 & 
+                   (b1 + qt(1 - 0.05/2, df = 23)*sb1) >= 0)
+}
+```
+
+If we look at the proportion of times we reject the null hypothesis that $\beta_1 = 0$, which can be obtained by evaluating `mean(reject)`, we get `r mean(reject)`. This just about matches $\alpha$, which makes sense, because $\alpha$ conveys how often we would expect to reject the null that $\beta_1 = 0$ across different realizations of data generated according to the null model with $\beta_1 = 0$
+
+(b)  Simulate $k = 1,\dots, 1,000$ synthetic datasets $Y^{\left(k\right)}_1, \dots, Y^{\left(k\right)}_{25}$  according to:
+
+$$
+Y_i^{\left(k\right)} = b_0 + 3X_i + \epsilon_i^{\left(k\right)}\text{, \quad} \epsilon_i \stackrel{i.i.d.}{\sim}\text{normal}\left(0, s^2 \right)\text{\quad  for } i = 1, \dots, 25
+$$
+
+For each of the $k = 1, \dots, 1,000$ synthetic datasets, perform a level-$\alpha = 0.05$ test of the null hypothesis that $\beta_1 = 3$, and record whether or not we reject the null hypothesis. In what proportion/percent of simulations do you reject the null? We call this the *level* of the test, it tells us how often a level-$\alpha = 0.05$ test would lead us to reject the null hypothesis that $\beta_1 = 3$ if the true value of $\beta_1$ were in fact $3$.
+
+\color{blue}
+```{r, eval = TRUE, echo = TRUE}
+reject <- rep(NA, 1000)
+for (i in 1:length(reject)) {
+  Y.sim <- rnorm(n = 25, mean = 62.366 + 3*X, sd = 48.82)
+  linmod <- lm(Y.sim~X)
+  b1 <- summary(linmod)$coef["X", "Estimate"]
+  sb1 <- summary(linmod)$coef["X", "Std. Error"]
+  reject[i] <- !((b1 + qt(0.05/2, df = 23)*sb1) <= 3 & 
+                   (b1 + qt(1 - 0.05/2, df = 23)*sb1) >= 3)
+}
+```
+
+We reject the null in `r round(100*mean(reject), 2)`% of simulations.
+\color{black}
+
+(c)  Simulate $k = 1,\dots, 1,000$ synthetic datasets $Y^{\left(k\right)}_1, \dots, Y^{\left(k\right)}_{25}$  according to:
+
+$$
+Y_i^{\left(k\right)} = b_0 + 3.5X_i + \epsilon_i^{\left(k\right)}\text{, \quad} \epsilon_i \stackrel{i.i.d.}{\sim}\text{normal}\left(0, s^2 \right)\text{\quad  for } i = 1, \dots, 25
+$$
+
+For each of the $k = 1, \dots, 1,000$ synthetic datasets, perform a level-$\alpha = 0.05$ test of the null hypothesis that $\beta_1 = 3$, and record whether or not we reject the null hypothesis. In what proportion/percent of simulations do you reject the null? We call proportion this the *power* of the test for $\beta_1 = 3.5$, it tells us how often a level-$\alpha = 0.05$ test would lead us to reject the null hypothesis that $\beta_1 = 3$ if the true value of $\beta_1$ were in fact $3.5$.
+
+\color{blue}
+```{r, eval = TRUE, echo = TRUE}
+reject <- rep(NA, 1000)
+for (i in 1:length(reject)) {
+  Y.sim <- rnorm(n = 25, mean = 62.366 + 3.5*X, sd = 48.82)
+  linmod <- lm(Y.sim~X)
+  b1 <- summary(linmod)$coef["X", "Estimate"]
+  sb1 <- summary(linmod)$coef["X", "Std. Error"]
+  reject[i] <- !((b1 + qt(0.05/2, df = 23)*sb1) <= 3 & 
+                   (b1 + qt(1 - 0.05/2, df = 23)*sb1) >= 3)
+}
+```
+
+We reject the null in `r round(100*mean(reject), 2)`% of simulations.
+\color{black}
+
+(d)  Simulate $k = 1,\dots, 1,000$ synthetic datasets $Y^{\left(k\right)}_1, \dots, Y^{\left(k\right)}_{25}$  according to:
+
+$$
+Y_i^{\left(k\right)} = b_0 + 6X_i + \epsilon_i^{\left(k\right)}\text{, \quad} \epsilon_i \stackrel{i.i.d.}{\sim}\text{normal}\left(0, s^2 \right)\text{\quad  for } i = 1, \dots, 25
+$$
+
+For each of the $k = 1, \dots, 1,000$ synthetic datasets, perform a level-$\alpha = 0.05$ test of the null hypothesis that $\beta_1 = 3$, and record whether or not we reject the null hypothesis. In what proportion/percent of simulations do you reject the null? We call proportion this a *power* of a test for $\beta_1 = 6$, it tells us how often a level-$\alpha = 0.05$ test would lead us to reject the null hypothesis that $\beta_1 = 3$ if the true value of $\beta_1$ were in fact $6$.
+
+\color{blue}
+```{r, eval = TRUE, echo = TRUE}
+reject <- rep(NA, 1000)
+for (i in 1:length(reject)) {
+  Y.sim <- rnorm(n = 25, mean = 62.366 + 6*X, sd = 48.82)
+  linmod <- lm(Y.sim~X)
+  b1 <- summary(linmod)$coef["X", "Estimate"]
+  sb1 <- summary(linmod)$coef["X", "Std. Error"]
+  reject[i] <- !((b1 + qt(0.05/2, df = 23)*sb1) <= 3 & 
+                   (b1 + qt(1 - 0.05/2, df = 23)*sb1) >= 3)
+}
+```
+
+We reject the null in `r round(100*mean(reject), 2)`% of simulations.
+\color{black}
+
+(e) Explain how the results of (b) , (c) and (d) differ, and comment on how the power of the test of the null hypothesis that $\beta_1 = 3$ depends on the true value of $\beta_1$.
+
+\color{blue}
+We reject the null hypothesis that $\beta_1 = 3$ in a greater proportion of simulations as $\beta_1$ increases. This is what we would expect - the further away the true value of $\beta_1$ is from $3$, the more often we reject the null hypothesis that $\beta_1 = 3$.
+\color{black}
+
+3. Problem 2.27 from the `.pdf` version of the textbook. Requires use of the `muscle` data that has been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
+
+```{r, echo = TRUE, echo = FALSE}
+load("~/Dropbox/Teaching/STAT525-2020/stat525/content/homework/muscle.RData")
+X <- data$X
+Y <- data$Y
+linmod <- lm(Y~X)
+```
+
+(a) 
+
+\color{blue}
+To decide whether or not there is a negative linear association between amount of muscle mass and age, we would conduct a test of the null hypothesis $H_0: \beta_1 \geq 0$ against the alternative $H_a: \beta_1 < 0$. The decision rule for a level-$\alpha = 0.05$ test based on the test statistic $t^* = b_1/s\left\{b_1\right\}$ would be:
+
+* If $t^*  \geq t_{58}\left(0.05\right)$, conclude $H_0$
+* If $t^*  < t_{58}\left(0.05\right)$, conclude $H_a$.
+
+
+
+Because $t^* =`r summary(linmod)$coef["X", "t value"]`$ and $t_{58}\left(0.05\right) = -1.671553$, we would reject $H_0$ and conclude $H_a$.
+
+The $p$-value of the test is $P\left(t < t^* \right) = `r pt(summary(linmod)$coef["X", "t value"], df = length(Y) - 2)`$, the probability that a $t$-random variable with $58$ degrees of freedom is less than $t^*$. 
+
+```{r}
+t.star <- summary(linmod)$coef["X", "t value"]
+t.quantile <- qt(0.05, df = length(Y) - 2)
+p.val <- pt(t.star, df = length(Y) - 2)
+```
+
+\color{black}
+
+(b) 
+
+\color{blue}
+Even if the two-sided $p$-value for the test of whether $\beta_0 = 0$ is $0+$, it should not be concluded that $b_0$ provides relevant information on the amount of muscle mass at birth for a female child because $X_i = 0$ is not within the scope of the model - the smallest value of $X_i$ in the data used to fit the model was $X_i = 41$.
+\color{black}
+
+(c) 
+
+\color{blue}
+The expected muscle mass for a women whose age is given by $X_i$ is $E\left\{Y_i \right\} = \beta_0 + \beta_1 X_i$. It follows that the difference in expected muscle mass for women whose ages differ by one year is given by 
+\begin{align*}
+\beta_0 + \beta_1 \left(X_i + 1\right) - \left(\beta_0 + \beta_1 X_i\right) = \beta_0 - \beta_0 + \beta_1 X_i - \beta_1 X_i + \beta_1 = \beta_1.
+\end{align*}
+The terms that depend on $X_i$ cancel because we have assumed the expected muscle mass for a women is linear in age $X_i$, so we do not need to know the specific ages to make an estimate of the difference in expected muscle mass for women whose ages differ by one year.
+
+The estimate of the difference in expected muscle mass for women whose ages differ by one year is $b_1 = `r summary(linmod)$coef["X", "Estimate"]`$, and a $95$ percent confidence interval is given by $\left(b_1 + t_{58}\left(0.025\right) s\left\{b_1\right\}, b_1 + t_{58}\left(0.975\right) s\left\{b_1\right\}\right) = \left(`r summary(linmod)$coef["X", "Estimate"] + summary(linmod)$coef["X", "Std. Error"]*qt(0.025, 58)`, `r summary(linmod)$coef["X", "Estimate"] + summary(linmod)$coef["X", "Std. Error"]*qt(0.975, 58)` \right)$.
+
+```{r}
+b1 <- summary(linmod)$coef["X", "Estimate"]
+sb1 <- summary(linmod)$coef["X", "Std. Error"]
+t.quantile.025 <- qt(0.025, 58)
+t.quantile.975 <- qt(0.975, 58)
+```
+
+\color{black}
+
+4. Problem 2.30 from the `.pdf` version of the textbook. Requires use of the `crime` data that has been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
+
+```{r, echo = TRUE, echo = FALSE}
+load("~/Dropbox/Teaching/STAT525-2020/stat525/content/homework/crime.RData")
+X <- data$X
+Y <- data$Y
+linmod <- lm(Y~X)
+```
+
+(a) 
+
+\color{blue}
+To decide whether or not there is a linear association between amount of muscle mass and age, we would conduct a test of the null hypothesis $H_0: \beta_1 = 0$ against the alternative $H_a: \beta_1 \neq 0$. The decision rule for a level-$\alpha = 0.01$ test based on the test statistic $t^* = b_1/s\left\{b_1\right\}$ would be:
+
+* If $t_{82}\left(0.005\right) \leq t^*  \leq t_{82}\left(0.995\right)$, conclude $H_0$
+* If $t^*  < t_{82}\left(0.005\right)$ or $t^*  > t_{82}\left(0.995\right)$, conclude $H_a$.
+
+
+
+Because $t^* =`r summary(linmod)$coef["X", "t value"]`$, $t_{82}\left(0.005\right) = -2.637123$ and $t_{82}\left(0.995\right) = 2.637123$, we would reject $H_0$ and conclude $H_a$.
+
+The $p$-value of the test is $P\left(\left|t\right| > \left|t^*\right| \right) = `r 2*pt(abs(summary(linmod)$coef["X", "t value"]), df = length(Y) - 2, lower.tail = FALSE)`$, the probability that a $t$-random variable with $82$ degrees of freedom is less greater than $\left|t^*\right|$ in absolute value. 
+
+```{r}
+t.star <- summary(linmod)$coef["X", "t value"]
+t.quantile.005 <- qt(0.005, df = length(Y) - 2)
+t.quantile.995 <- qt(0.995, df = length(Y) - 2)
+p.val <- 2*pt(abs(t.star), df = length(Y) - 2,
+              lower.tail = FALSE)
+```
+
+\color{black}
+
+(b) 
+
+\color{blue}
+
+The estimate of the difference in expected crime rate for areas whose percentage of high school graduates differ by one percent is $b_1 = `r summary(linmod)$coef["X", "Estimate"]`$, and a $99$ percent confidence interval is given by $\left(b_1 + t_{82}\left(0.005\right) s\left\{b_1\right\}, b_1 + t_{58}\left(0.995\right) s\left\{b_1\right\}\right) = \left(`r summary(linmod)$coef["X", "Estimate"] + summary(linmod)$coef["X", "Std. Error"]*qt(0.005, 82)`, `r summary(linmod)$coef["X", "Estimate"] + summary(linmod)$coef["X", "Std. Error"]*qt(0.995, 82)` \right)$.
+
+```{r}
+b1 <- summary(linmod)$coef["X", "Estimate"]
+sb1 <- summary(linmod)$coef["X", "Std. Error"]
+t.quantile.005 <- qt(0.005, 82)
+t.quantile.995 <- qt(0.995, 82)
+```
+
+\color{black}
