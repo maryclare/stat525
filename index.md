@@ -4,6 +4,9 @@ layout: stat525
 
 News
 -------
+* Tuesday, 3/03/20
+   - Dongah has added additional office hours on Tuesdays from 2:30-3:30pm. The syllabus has been updated accordingly.
+   - Code from class has been posted to the [Notes](https://maryclare.github.io/stat525/notes.html) page
 * Sunday, 3/01/20
    - Solutions to Homework 4 have been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
 * Wednesday, 2/26/20
