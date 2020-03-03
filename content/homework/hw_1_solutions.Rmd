@@ -37,7 +37,7 @@ alpha <- 0.1
 int <- y.bar + qt(c(alpha/2, 1 - alpha/2), 
                    df = n - 1)*s/sqrt(n)
 ```
-We obtain a 95 percent confidence interval of (`r round(int[1], 2)`, `r round(int[2], 2)`).
+We obtain a 90 percent confidence interval of (`r round(int[1], 2)`, `r round(int[2], 2)`).
 \color{black}
 
 (b) Simulate $1,000$ draws from the sampling distribution of $\bar{Y}$. Plot a histogram of $\bar{Y}$ on the density scale. Add vertical lines at $\bar{Y}$ and the upper and lower bounds of the interval derived in (a), and overlay the density of the sampling distribution of $\bar{Y}$ on the histogram.
