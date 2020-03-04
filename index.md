@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Wednesday, 3/03/20
+   - Starting the week of March 9, my office hours will be 10:00-11:00am on Mondays and 9:00-10:00am on Wednesdays.
 * Tuesday, 3/03/20
    - Dongah has added additional office hours on Tuesdays from 2:30-3:30pm. The syllabus has been updated accordingly.
    - Code from class has been posted to the [Notes](https://maryclare.github.io/stat525/notes.html) page
