@@ -4,6 +4,9 @@ layout: stat525
 
 News
 -------
+* Wednesday, 3/11/20
+   - Some clarifications have been added to [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf).
+   - Code from class has been posted to the [Notes](https://maryclare.github.io/stat525/notes.html) page.
 * Thursday, 3/05/20
    - [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf) has been posted.
 * Wednesday, 3/04/20
