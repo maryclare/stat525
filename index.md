@@ -5,7 +5,7 @@ layout: stat525
 News
 -------
 * Wednesday, 3/11/20
-   - The due date for [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf) has been extended to Thursday, 3/19/20.
+   - The due date for [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf) has been extended to Thursday, 3/26/20.
    - Some clarifications have been added to [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf).
    - Code from class has been posted to the [Notes](https://maryclare.github.io/stat525/notes.html) page.
 * Thursday, 3/05/20
