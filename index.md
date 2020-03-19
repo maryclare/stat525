@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Thursday 3/19/20
+   - I have added a [Piazza page](piazza.com/umass/spring2020/stat525) for our class to conduct remote discussion on.
 * Wednesday, 3/11/20
    - The due date for [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf) has been extended to Thursday, 3/26/20.
    - Some clarifications have been added to [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf).
