@@ -19,7 +19,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * Examples from A.6-A.9 of Appendix A: [`appendix_a_6-9.R`](https://maryclare.github.io/stat525/content/code/appendix_a_6-9.R)
 * Examples from A.1-A.5 of Appendix A: [`appendix_a_1-5.R`](https://maryclare.github.io/stat525/content/code/appendix_a_1-5.R)
 
-## Additional Data for Code
+## Additional Data
 * [`plutonium`](https://maryclare.github.io/stat525/content/homework/plutonium.RData)
 * [`sales`](https://maryclare.github.io/stat525/content/homework/sales.RData)
 * [`plasma`](https://maryclare.github.io/stat525/content/homework/plasma.RData)
