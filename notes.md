@@ -8,6 +8,8 @@ Notes and Slides
 Please keep in mind that these will be updated periodically as I catch and am otherwise made aware of typos.
 
 ## Code
+* Transforming the Response: [`figure_3_16.R`](https://maryclare.github.io/stat525/content/code/figure_3_16.R)
+* Transforming Covariates: [`figure_3_14.R`](https://maryclare.github.io/stat525/content/code/figure_3_14.R)
 * Examining Residuals: [`figure_3_2.R`](https://maryclare.github.io/stat525/content/code/figure_3_2.R)
 * Examining Covariates: [`figure_3_1.R`](https://maryclare.github.io/stat525/content/code/figure_3_1.R)
 * Using `anova`: [`anova_example.R`](https://maryclare.github.io/stat525/content/code/anova_example.R)
@@ -15,6 +17,11 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * Loading the Data for HW 2: [`load_data.R`](https://maryclare.github.io/stat525/content/code/load_data.R)
 * Examples from A.6-A.9 of Appendix A: [`appendix_a_6-9.R`](https://maryclare.github.io/stat525/content/code/appendix_a_6-9.R)
 * Examples from A.1-A.5 of Appendix A: [`appendix_a_1-5.R`](https://maryclare.github.io/stat525/content/code/appendix_a_1-5.R)
+
+## Additional Data for Code
+* [`plutonium`](https://maryclare.github.io/stat525/content/homework/plutonium.RData)
+* [`sales`](https://maryclare.github.io/stat525/content/homework/sales.RData)
+* [`plasma`](https://maryclare.github.io/stat525/content/homework/plasma.RData)
 
 ## Additional Textbook Material
 * Subsections A.1-A.5 of Appendix A: [`appendix_a.pdf`](https://maryclare.github.io/stat525/content/appendix_a.pdf)
