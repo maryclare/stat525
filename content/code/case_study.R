@@ -26,6 +26,7 @@ outlier
 # indicated that something went wrong in the experiment for this point
 X <- X[-outlier]
 Y <- Y[-outlier]
+n <- length(Y)
 
 plot(X, Y, pch = 16,
      xlab = "Plutonium Activity", ylab = "Alpha Count Rate")
@@ -36,7 +37,7 @@ plot(X, log(Y), pch = 16,
 plot(X, sqrt(Y), pch = 16,
      xlab = "Plutonium Activity", ylab = "Square Root Alpha Count Rate")
 
-# Maybe the issues are easier to see if we look at the residuals?
+# Let's try fitting the model and seeing how the fit looks
 linmod <- lm(I(sqrt(Y))~X)
 abline(a = linmod$coef[1], b = linmod$coef[2], col = "blue")
 e <- linmod$residuals
@@ -59,10 +60,14 @@ plot(X, e.new, xlab = "Plutonium Activity", pch = 16,
      ylab =  "Residuals")
 abline(h = 0, lty = 3)
 
-n <- length(Y)
 MSE <- sum(e^2)/(n - 2)
 MSE.new <- sum(e.new^2)/(n - 2)
 
 par(mfrow = c(1, 2))
 qqnorm(e/sqrt(MSE), main = "Untransformed X")
 qqnorm(e.new/sqrt(MSE.new), main = "Transformed X")
+
+# The residual plots confirm our suspicions! We should transform X as well as Y
+par(mfrow = c(1, 1))
+plot(X, Y)
+points(X, linmod.new$fitted.values^2, col = "blue")

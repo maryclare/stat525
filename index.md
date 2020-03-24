@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Tuesday 3/24/20
+   - I have added various bits of code from class to the [notes page](https://maryclare.github.io/stat525/notes.html), along with the notes I made during lecture.
 * Thursday 3/19/20
    - I have added a [Piazza page](piazza.com/umass/spring2020/stat525) for our class to conduct remote discussion on.
    - I have shifted the deadlines for the next steps of the IE project. See the [syllabus](https://maryclare.github.io/stat525/content/syllabus_525_spring2020.pdf) for details.
