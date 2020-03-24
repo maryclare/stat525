@@ -8,6 +8,7 @@ Notes and Slides
 Please keep in mind that these will be updated periodically as I catch and am otherwise made aware of typos.
 
 ## Code
+* Plutonium Case Study: [`case_study.R`](https://maryclare.github.io/stat525/content/code/case_study.R)
 * Transforming the Response: [`figure_3_16.R`](https://maryclare.github.io/stat525/content/code/figure_3_16.R)
 * Transforming Covariates: [`figure_3_14.R`](https://maryclare.github.io/stat525/content/code/figure_3_14.R)
 * Examining Residuals: [`figure_3_2.R`](https://maryclare.github.io/stat525/content/code/figure_3_2.R)
