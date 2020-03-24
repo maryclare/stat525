@@ -6,7 +6,7 @@ News
 -------
 * Thursday 3/19/20
    - I have added a [Piazza page](piazza.com/umass/spring2020/stat525) for our class to conduct remote discussion on.
-   - I have shifted the deadlines for the next steps of the IE project. See the [syllabus](https://maryclare.github.io/stat697/content/syllabus_525_spring2020.pdf) for details.
+   - I have shifted the deadlines for the next steps of the IE project. See the [syllabus](https://maryclare.github.io/stat525/content/syllabus_525_spring2020.pdf) for details.
 * Wednesday, 3/11/20
    - The due date for [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf) has been extended to Thursday, 3/26/20.
    - Some clarifications have been added to [Homework 5](https://maryclare.github.io/stat525/content/homework/hw_5.pdf).
@@ -44,13 +44,13 @@ News
 * Saturday, 2/01/20
    - Solutions to Homework 1 have been posted on the [Homework](https://maryclare.github.io/stat525/homework.html) page.
 * Tuesday, 1/28/20
-   - I have updated the [annotated code that gives some examples of working with `R`'s functions for working with the normal, chi-square, t, and F distributions](https://maryclare.github.io/stat697/content/code/appendix_a_1-5.R).
+   - I have updated the [annotated code that gives some examples of working with `R`'s functions for working with the normal, chi-square, t, and F distributions](https://maryclare.github.io/stat525/content/code/appendix_a_1-5.R).
    - I have added some helpful links for learning more about `R`, `.Rmd` files, and R Markdown to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Monday, 1/27/20
   - Because we did not get through all of the relevant material on Thursday 1/23/20, I have adjusted [Homework 1](https://maryclare.github.io/stat525/content/homework/hw_1.pdf), due on Thursday 1/30/20. We will work through problems 5., 6., and 7. in class on Tuesday 1/28/20.
-  - The [syllabus](https://maryclare.github.io/stat697/content/syllabus_525_spring2020.pdf) has been updated to include our teaching assistant Dongah Kim's office hours. They will be 2:30PM-3:30PM on Wednesdays in her office LGRT 1435N.
+  - The [syllabus](https://maryclare.github.io/stat525/content/syllabus_525_spring2020.pdf) has been updated to include our teaching assistant Dongah Kim's office hours. They will be 2:30PM-3:30PM on Wednesdays in her office LGRT 1435N.
 * Sunday, 1/26/20
-  - The [syllabus](https://maryclare.github.io/stat697/content/syllabus_525_spring2020.pdf) has been updated to include information about student disability services at UMass.
+  - The [syllabus](https://maryclare.github.io/stat525/content/syllabus_525_spring2020.pdf) has been updated to include information about student disability services at UMass.
 * Thursday, 1/23/20
    - I have posted annotated code from Thursday's class that gives some examples of working with `R`'s functions for working with the normal, chi-square, t, and F distributions. I have also posted some code we didn't get to in class, which shows the examples from Appendix A subsections A.6-A.9 worked up in `R`. All of this code has been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Wednesday, 1/22/20
