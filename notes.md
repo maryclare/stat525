@@ -10,7 +10,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 ## Code
 * Examining Residuals: [`figure_3_2.R`](https://maryclare.github.io/stat525/content/code/figure_3_2.R)
 * Examining Covariates: [`figure_3_1.R`](https://maryclare.github.io/stat525/content/code/figure_3_1.R)
-* Using `anova`: [`lm_example.R`](https://maryclare.github.io/stat525/content/code/anova_example.R)
+* Using `anova`: [`anova_example.R`](https://maryclare.github.io/stat525/content/code/anova_example.R)
 * Using `lm`: [`lm_example.R`](https://maryclare.github.io/stat525/content/code/lm_example.R)
 * Loading the Data for HW 2: [`load_data.R`](https://maryclare.github.io/stat525/content/code/load_data.R)
 * Examples from A.6-A.9 of Appendix A: [`appendix_a_6-9.R`](https://maryclare.github.io/stat525/content/code/appendix_a_6-9.R)
