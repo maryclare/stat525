@@ -14,6 +14,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * [`ipad_notes_032420.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_032420.pdf)
 
 ## Code
+* Multiple Regression: [`multiple_regression.R`](https://maryclare.github.io/stat525/content/code/multiple_regression.R)
 * Plutonium Case Study: [`case_study.R`](https://maryclare.github.io/stat525/content/code/case_study.R)
 * Transforming the Response: [`figure_3_16.R`](https://maryclare.github.io/stat525/content/code/figure_3_16.R)
 * Transforming Covariates: [`figure_3_14.R`](https://maryclare.github.io/stat525/content/code/figure_3_14.R)
