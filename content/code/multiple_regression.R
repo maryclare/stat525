@@ -31,8 +31,11 @@ plot(data$X2, data$X1,
 pairs(data)
 
 # Now let's try out some matrix algebra
-X <- as.matrix(data[, c("X1", "X2")]) # Extracts multiple columns from
-                                      # a data frame
+n <- nrow(data)
+X <- cbind(rep(1, n), # Makes a vector of 1's, predictor corresponding to \beta_0
+           data[, c("X1", "X2")]) # Extracts multiple columns from a data frame
+X <- as.matrix(X) # For some reason R will work better if we ensure that X is being
+                  # treated as a matrix (instead of a data frame)
 head(X)
 Y <- data$Y
 
@@ -58,6 +61,6 @@ solve(t(X)%*%X)%*%t(X)%*%Y
 
 # We could alternatively do this using lm instead
 # (This is what we'll actually do most of the time)
-summary(lm(Y~X)) 
+summary(lm(Y~X-1)) 
 summary(lm(Y~X1+X2, data = data)) # This is another way of doing the
-                                  # same thing as summary(lm(Y~X)) 
+                                  # same thing as summary(lm(Y~X-1)) 
