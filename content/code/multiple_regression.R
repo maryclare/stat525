@@ -9,7 +9,7 @@ head(data)
 # Data collected by a photo studio that specializes
 # in portraits of children
 # Each observation corresponds to a city 
-# Y_i is the sales in community i
+# Y_i is the sales in city i
 # X1_i is the number of persons age 16 or younger in city i
 # X2_i is the per capita disposable income in city i
 
