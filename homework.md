@@ -14,6 +14,7 @@ Homework
 
 
 ## Assignments
+* Homework 6: [`hw_6.pdf`](https://maryclare.github.io/stat525/content/homework/hw_6.pdf)
 * Homework 5: [`hw_5.pdf`](https://maryclare.github.io/stat525/content/homework/hw_5.pdf)
 * Homework 4: [`hw_4.pdf`](https://maryclare.github.io/stat525/content/homework/hw_4.pdf)
   - Solutions: [`hw_4_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_4_solutions.pdf), [`hw_4_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_4_solutions.Rmd)
@@ -25,6 +26,10 @@ Homework
   - Solutions: [`hw_1_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.pdf), [`hw_1_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.Rmd)
   
 ## Data for Assignments
+* [`prostate_cancer`](https://maryclare.github.io/stat525/content/homework/prostate_cancer.RData)
+* [`blood_pressure`](https://maryclare.github.io/stat525/content/homework/blood_pressure.RData)
+* [`production_time`](https://maryclare.github.io/stat525/content/homework/production_time.RData)
+* [`solution_concentration`](https://maryclare.github.io/stat525/content/homework/solution_concentration.RData)
 * [`toluca`](https://maryclare.github.io/stat525/content/homework/toluca.RData)
 * [`muscle`](https://maryclare.github.io/stat525/content/homework/muscle.RData)
 * [`crime`](https://maryclare.github.io/stat525/content/homework/crime.RData)
