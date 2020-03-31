@@ -49,18 +49,31 @@ dim(X)
 dim(t(X))
 
 # Matrix multiplication!
-t(X)%*%Y
-t(X)%*%X
+t(X)%*%Y # Computing X'Y
+t(X)%*%X # Computing X'X
 
 # Matrix inversion!
-solve(t(X)%*%X)
+solve(t(X)%*%X) # (X'X)^(-1) 
 
 # Compute the least squares estimates using the 
 # matrix formula!
-solve(t(X)%*%X)%*%t(X)%*%Y
+b <- solve(t(X)%*%X)%*%t(X)%*%Y # b = (X'X)^(-1) X'Y
 
 # We could alternatively do this using lm instead
 # (This is what we'll actually do most of the time)
+summary(lm(Y~X1+X2, data = data))
 summary(lm(Y~X-1)) 
-summary(lm(Y~X1+X2, data = data)) # This is another way of doing the
-                                  # same thing as summary(lm(Y~X-1)) 
+
+linmod <- lm(Y~X1+X2, data = data)
+linmod$coefficients
+b0 <- linmod$coefficients[1]
+b1 <- linmod$coefficients[2]
+b2 <- linmod$coefficients[3]
+
+X1 <- data$X1
+X2 <- data$X2
+Y.hat <- b0 + b1*X1 + b2*X2 # Y.hat <- X%*%b, or Y.hat <- X%*%linmod$coefficients, linmod$fitted.values
+e <- Y - Y.hat # linmod$residuals
+s.sq <- sum(e^2)/(n - 3)
+summary(linmod)
+sqrt(s.sq) # summary(linmod)$sigma

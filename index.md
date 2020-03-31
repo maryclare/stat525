@@ -4,8 +4,10 @@ layout: stat525
 
 News
 -------
+* Tuesday 3/31/20
+   - Lecture and slides have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html), and code from class has been updated.
 * Thursday 3/26/20
-   - Lecture and slides have been posted, as well as the code and data we discussed.
+   - Lecture and slides have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html), along with the code and data we discussed.
    - [Homework 6](https://maryclare.github.io/stat525/content/homework/hw_6.pdf)  has been posted.
 * Tuesday 3/24/20
    - I have added various bits of code from class to the [notes page](https://maryclare.github.io/stat525/notes.html), along with the notes I made during lecture and a link to the recording.
