@@ -277,7 +277,7 @@ To decide whether or not there is a linear association between amount of muscle 
 
 Because $t^* =`r summary(linmod)$coef["X", "t value"]`$, $t_{82}\left(0.005\right) = -2.637123$ and $t_{82}\left(0.995\right) = 2.637123$, we would reject $H_0$ and conclude $H_a$.
 
-The $p$-value of the test is $P\left(\left|t\right| > \left|t^*\right| \right) = `r 2*pt(abs(summary(linmod)$coef["X", "t value"]), df = length(Y) - 2, lower.tail = FALSE)`$, the probability that a $t$-random variable with $82$ degrees of freedom is less greater than $\left|t^*\right|$ in absolute value. 
+The $p$-value of the test is $P\left(\left|t\right| > \left|t^*\right| \right) = `r 2*pt(abs(summary(linmod)$coef["X", "t value"]), df = length(Y) - 2, lower.tail = FALSE)`$, the probability that a $t$-random variable with $82$ degrees of freedom is greater than $\left|t^*\right|$ in absolute value. 
 
 ```{r}
 t.star <- summary(linmod)$coef["X", "t value"]

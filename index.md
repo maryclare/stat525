@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Wednesday 4/01/20
+   - Solutions to Homework 5 have been posted to the [Homework](https://maryclare.github.io/stat525/homework.html) page.
 * Tuesday 3/31/20
    - Lecture and slides have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html), and code from class has been updated.
 * Thursday 3/26/20
