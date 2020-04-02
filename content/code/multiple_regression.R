@@ -77,3 +77,28 @@ e <- Y - Y.hat # linmod$residuals
 s.sq <- sum(e^2)/(n - 3)
 summary(linmod)
 sqrt(s.sq) # summary(linmod)$sigma
+
+# Compute sums of squares
+sse <- sum(e^2)
+ssr <- sum((Y.hat - mean(Y))^2)
+ssto <- sum((Y - mean(Y))^2)
+
+mse <- sse/(n - 3)
+msr <- ssr/(3 - 1)
+msto <- ssto/(n - 1)
+        
+F.star <- msr/mse # summary(linmod)$fstatistic
+
+F.star
+pf(F.star, 3 - 1, n - 3, lower.tail = FALSE)
+
+summary(linmod)
+
+R.sq <- ssr/ssto # summary(linmod)$r.squared
+R.sq.a <- 1 - mse/msto # summary(linmod)$adj.r.squared
+
+# Estimated variance-covariance matrix of the regression coefficient
+# estimates
+cov.b <- s.sq*solve(t(X)%*%X)
+sqrt(diag(cov.b)) # summary(linmod)$coef[, "Std. Error"]
+summary(linmod)
