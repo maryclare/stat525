@@ -9,6 +9,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 
 ## Lecture Recordings
 * [Thursday, April 2](https://umass-amherst.zoom.us/rec/share/4PNuL4nwqFNIaZHE61v9B-kcNJz7eaa80CAdrPoLnUaQlQ_sSPuBEDKVATmePZbj?startTime=1585830701000)
+  - Additional follow-up explaining details of the relevant code: [Friday, April 3](https://umass-amherst.zoom.us/rec/share/xshUC73i1W9IaY3StGPyRfJ7Wb_7aaa8gykdqfIKxBxKR-wm9nitySaeBKmTwTN0?startTime=1585930349000)
 * [Tuesday, March 31](https://umass-amherst.zoom.us/rec/share/_NFNBJvU7ztJBY3pwmP4SPd6EJy8eaa8gyIZ-_NfxRudGmba1hwoi7kIk-ZuJTrN?startTime=1585657854000)
 * [Thursday, March 26](https://umass-amherst.zoom.us/rec/share/7MVUbJSt_WJLXonU1HvxeKMYJ6LIX6a8hHce-_cLyU9NIEIvzm274K-CjzCFZJzB?startTime=1585225930000)
 * [Tuesday, March 24](https://umass-amherst.zoom.us/rec/share/5Z0oMq3pxE1OGIXr0hr8SLY8DKD0T6a82nJK-KAFykayEICFo2a0dnwHmWgYtU_2?startTime=1585053120000)

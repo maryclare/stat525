@@ -73,10 +73,13 @@ b2 <- linmod$coefficients[3]
 X1 <- data$X1
 X2 <- data$X2
 Y.hat <- b0 + b1*X1 + b2*X2 # Y.hat <- X%*%b, or Y.hat <- X%*%linmod$coefficients, linmod$fitted.values
+Y.hat <- linmod$fitted.values
 e <- Y - Y.hat # linmod$residuals
+e <- linmod$residuals
 s.sq <- sum(e^2)/(n - 3)
 summary(linmod)
 sqrt(s.sq) # summary(linmod)$sigma
+s.sq <- summary(linmod)$sigma^2
 
 # Compute sums of squares
 sse <- sum(e^2)
@@ -86,19 +89,24 @@ ssto <- sum((Y - mean(Y))^2)
 mse <- sse/(n - 3)
 msr <- ssr/(3 - 1)
 msto <- ssto/(n - 1)
-        
-F.star <- msr/mse # summary(linmod)$fstatistic
+
+# Compute the F-Statistic        
+F.star <- msr/mse # 
+F.star <- summary(linmod)$fstatistic
 
 F.star
+# Compute the p-value of the F-statistic
 pf(F.star, 3 - 1, n - 3, lower.tail = FALSE)
 
 summary(linmod)
 
 R.sq <- ssr/ssto # summary(linmod)$r.squared
+R.sq <- summary(linmod)$r.squared
 R.sq.a <- 1 - mse/msto # summary(linmod)$adj.r.squared
+R.sq.a <- summary(linmod)$adj.r.squared
 
 # Estimated variance-covariance matrix of the regression coefficient
 # estimates
 cov.b <- s.sq*solve(t(X)%*%X)
 sqrt(diag(cov.b)) # summary(linmod)$coef[, "Std. Error"]
-summary(linmod)
+summary(linmod)$coef[, "Std. Error"]
