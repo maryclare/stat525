@@ -14,6 +14,7 @@ Homework
 
 
 ## Assignments
+* Homework 7: [`hw_7.pdf`](https://maryclare.github.io/stat525/content/homework/hw_7.pdf)
 * Homework 6: [`hw_6.pdf`](https://maryclare.github.io/stat525/content/homework/hw_6.pdf)
 * Homework 5: [`hw_5.pdf`](https://maryclare.github.io/stat525/content/homework/hw_5.pdf)
   - Solutions: [`hw_5_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_5_solutions.pdf), [`hw_5_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_5_solutions.Rmd)
@@ -27,6 +28,8 @@ Homework
   - Solutions: [`hw_1_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.pdf), [`hw_1_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.Rmd)
   
 ## Data for Assignments
+* [`grocery_retailer`](https://maryclare.github.io/stat525/content/homework/grocery_retailer.RData)
+* [`brand_preference`](https://maryclare.github.io/stat525/content/homework/brand_preference.RData)
 * [`prostate_cancer`](https://maryclare.github.io/stat525/content/homework/prostate_cancer.RData)
 * [`blood_pressure`](https://maryclare.github.io/stat525/content/homework/blood_pressure.RData)
 * [`production_time`](https://maryclare.github.io/stat525/content/homework/production_time.RData)
