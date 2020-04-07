@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Tuesday 4/07/20
+ - Lecture, slides, and code from class have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Friday 4/03/20
    - [Homework 7](https://maryclare.github.io/stat525/content/homework/hw_7.pdf)  has been posted.
    - An additional ten minute lecture on using `R` for multiple linear regression has been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).

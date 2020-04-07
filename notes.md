@@ -8,6 +8,7 @@ Notes and Slides
 Please keep in mind that these will be updated periodically as I catch and am otherwise made aware of typos.
 
 ## Lecture Recordings
+* [Tuesday, April 7](https://umass-amherst.zoom.us/rec/share/xNxFM7_J2VJJeavn62iDS44CB4P1T6a80SIf8vQPy0xSbAKdiWPR8izqEqlAoKPd?startTime=1586262833000)
 * [Thursday, April 2](https://umass-amherst.zoom.us/rec/share/4PNuL4nwqFNIaZHE61v9B-kcNJz7eaa80CAdrPoLnUaQlQ_sSPuBEDKVATmePZbj?startTime=1585830701000)
   - Additional follow-up explaining details of the relevant code: [Friday, April 3](https://umass-amherst.zoom.us/rec/share/xshUC73i1W9IaY3StGPyRfJ7Wb_7aaa8gykdqfIKxBxKR-wm9nitySaeBKmTwTN0?startTime=1585930349000)
 * [Tuesday, March 31](https://umass-amherst.zoom.us/rec/share/_NFNBJvU7ztJBY3pwmP4SPd6EJy8eaa8gyIZ-_NfxRudGmba1hwoi7kIk-ZuJTrN?startTime=1585657854000)
@@ -15,12 +16,14 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * [Tuesday, March 24](https://umass-amherst.zoom.us/rec/share/5Z0oMq3pxE1OGIXr0hr8SLY8DKD0T6a82nJK-KAFykayEICFo2a0dnwHmWgYtU_2?startTime=1585053120000)
 
 ## Lecture Notes
+* [`ipad_notes_040720.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_040720.pdf)
 * [`ipad_notes_040220.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_040220.pdf)
 * [`ipad_notes_033120.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_033120.pdf)
 * [`ipad_notes_032620.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_032620.pdf)
 * [`ipad_notes_032420.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_032420.pdf)
 
 ## Code
+* More Multiple Regression: [`more_multiple_regression.R`](https://maryclare.github.io/stat525/content/code/more_multiple_regression.R)
 * Multiple Regression: [`multiple_regression.R`](https://maryclare.github.io/stat525/content/code/multiple_regression.R)
 * Plutonium Case Study: [`case_study.R`](https://maryclare.github.io/stat525/content/code/case_study.R)
 * Transforming the Response: [`figure_3_16.R`](https://maryclare.github.io/stat525/content/code/figure_3_16.R)
