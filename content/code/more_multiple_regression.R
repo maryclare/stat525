@@ -86,6 +86,7 @@ qqline(e/s)
 
 # We already implemented an F-test, computed R^2 and 
 # adjusted R^2 in the previous code
+
 # Returns fitted value and standard error,
 # which can be used to construct an interval
 
@@ -96,7 +97,8 @@ qqline(e/s)
 X.h <- c(1, 65.4, 17.6) # New X values
 Y.hat.h <- c(X.h%*%linmod$coef)
 
-s.sq.b <- summary(linmod)$sigma^2*solve(crossprod(X))
+s.sq <- sum(e^2)/(n - 3)
+s.sq.b <- s.sq*solve(t(X)%*%X)
 s.Y.hat.h <- c(sqrt(t(X.h)%*%s.sq.b%*%X.h))
 
 # We could have done this more easily with the
