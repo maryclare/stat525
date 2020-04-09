@@ -75,4 +75,63 @@ plot(data$X1*data$X2, linmod$residuals,
      xlab = expression(paste(X[1], X[2], sep = "")), 
      ylab = "Residual", pch = 16)
 
+# Let's make two additional diagnostic plots
+par(mfrow = c(1, 2))
+plot(linmod$fitted.values, abs(linmod$residuals),
+     xlab = "Fitted", ylab = "Absolute Residual", pch = 16)
+e <- linmod$residuals
+s <- summary(linmod)$sigma
+qqnorm(e/s, pch = 16, main = "")
+qqline(e/s)
+
+# We already implemented an F-test, computed R^2 and 
+# adjusted R^2 in the previous code
+# Returns fitted value and standard error,
+# which can be used to construct an interval
+
+# Let's construct some fitted values and confidence/
+# prediction intervals
+
+# First, construct them by hand
+X.h <- c(1, 65.4, 17.6) # New X values
+Y.hat.h <- c(X.h%*%linmod$coef)
+
+s.sq.b <- summary(linmod)$sigma^2*solve(crossprod(X))
+s.Y.hat.h <- c(sqrt(t(X.h)%*%s.sq.b%*%X.h))
+
+# We could have done this more easily with the
+# predict function
+predict(linmod, 
+        data.frame("X1" = 65.4,
+                   "X2" = 17.6),
+        se.fit = TRUE)
+# We could use the standard error to get a 95% confidence interval
+Y.hat.h + s.Y.hat.h*qt(c(0.025, 0.975), n - 3)
+
+# Returns a confidence interval directly
+predict(linmod, 
+        data.frame("X1" = 65.4,
+                   "X2" = 17.6),
+        interval = "confidence", level = 0.95)
+
+# Construct a prediction interval by hand
+s.pred <- c(sqrt(summary(linmod)$sigma^2 + s.Y.hat.h^2))
+Y.hat.h + s.pred*qt(c(0.025, 0.975), n - 3)
+
+# Returns a prediction interval directly
+predict(linmod, 
+        data.frame("X1" = 65.4,
+                   "X2" = 17.6),
+        interval = "predict", level = 0.95)
+
+# We can actually obtain multiple at once!
+predict(linmod, 
+        data.frame("X1" = c(65.4, 53.1),
+                   "X2" = c(17.6, 17.7)),
+        interval = "confidence", level = 0.95)
+predict(linmod, 
+        data.frame("X1" = c(65.4, 53.1),
+                   "X2" = c(17.6, 17.7)),
+        interval = "prediction", level = 0.95)
+
 

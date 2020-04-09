@@ -29,6 +29,7 @@ Homework
   - Solutions: [`hw_1_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.pdf), [`hw_1_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.Rmd)
   
 ## Data for Assignments
+* [`body_fat`](https://maryclare.github.io/stat525/content/homework/body_far.RData)
 * [`grocery_retailer`](https://maryclare.github.io/stat525/content/homework/grocery_retailer.RData)
 * [`brand_preference`](https://maryclare.github.io/stat525/content/homework/brand_preference.RData)
 * [`prostate_cancer`](https://maryclare.github.io/stat525/content/homework/prostate_cancer.RData)
