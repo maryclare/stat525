@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Friday 4/10/20
+   - [Homework 8](https://maryclare.github.io/stat525/content/homework/hw_8.pdf)  has been posted.
 * Thursday 4/09/20
    - Lecture, slides, and code from class have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Wednesday 4/08/20
