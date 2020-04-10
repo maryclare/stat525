@@ -6,6 +6,7 @@ News
 -------
 * Friday 4/10/20
    - [Homework 8](https://maryclare.github.io/stat525/content/homework/hw_8.pdf)  has been posted.
+   - I have shifted the deadline for the next step of the IE project. See the [syllabus](https://maryclare.github.io/stat525/content/syllabus_525_spring2020.pdf) for details.
 * Thursday 4/09/20
    - Lecture, slides, and code from class have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Wednesday 4/08/20
