@@ -8,6 +8,7 @@ Notes and Slides
 Please keep in mind that these will be updated periodically as I catch and am otherwise made aware of typos.
 
 ## Lecture Recordings
+* [Tuesday, April 14](https://umass-amherst.zoom.us/rec/share/puJ_ILrexkpJZ53mwm_GBYk5E9W_T6a823dN8vUOmEzzHwLWdrnGiRltnm-N_6fe?startTime=1586867547000)
 * [Thursday, April 9](https://umass-amherst.zoom.us/rec/share/4fREI-nVym5IT9bcwRHTCrIRJZ7saaa8gSIf-6UPmrdipIEJFRkdOR6eKl9-AYM?startTime=1586435554000)
 * [Tuesday, April 7](https://umass-amherst.zoom.us/rec/share/xNxFM7_J2VJJeavn62iDS44CB4P1T6a80SIf8vQPy0xSbAKdiWPR8izqEqlAoKPd?startTime=1586262833000)
 * [Thursday, April 2](https://umass-amherst.zoom.us/rec/share/4PNuL4nwqFNIaZHE61v9B-kcNJz7eaa80CAdrPoLnUaQlQ_sSPuBEDKVATmePZbj?startTime=1585830701000)
@@ -17,6 +18,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * [Tuesday, March 24](https://umass-amherst.zoom.us/rec/share/5Z0oMq3pxE1OGIXr0hr8SLY8DKD0T6a82nJK-KAFykayEICFo2a0dnwHmWgYtU_2?startTime=1585053120000)
 
 ## Lecture Notes
+* [`ipad_notes_041420.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_041420.pdf)
 * [`ipad_notes_040920.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_040920.pdf)
 * [`ipad_notes_040720.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_040720.pdf)
 * [`ipad_notes_040220.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_040220.pdf)
@@ -25,6 +27,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * [`ipad_notes_032420.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_032420.pdf)
 
 ## Code
+* Extra Sums of Squares, Continued: [`extra_ss_continued.R`](https://maryclare.github.io/stat525/content/code/extra_ss_continued.R)
 * Extra Sums of Squares: [`extra_ss.R`](https://maryclare.github.io/stat525/content/code/extra_ss.R)
 * More Multiple Regression: [`more_multiple_regression.R`](https://maryclare.github.io/stat525/content/code/more_multiple_regression.R)
 * Multiple Regression: [`multiple_regression.R`](https://maryclare.github.io/stat525/content/code/multiple_regression.R)
