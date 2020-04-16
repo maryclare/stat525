@@ -4,6 +4,9 @@ layout: stat525
 
 News
 -------
+* Thursday 4/16/20
+   - Lecture, slides, and code from class have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
+   - Group order for presentations has been posted to the [project page](https://maryclare.github.io/stat525/project.html).
 * Tuesday 4/14/20
    - Lecture, slides, and code from class have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Friday 4/10/20
