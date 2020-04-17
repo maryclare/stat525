@@ -14,6 +14,7 @@ Homework
 
 
 ## Assignments
+* Homework 9: [`hw_9.pdf`](https://maryclare.github.io/stat525/content/homework/hw_9.pdf)
 * Homework 8: [`hw_8.pdf`](https://maryclare.github.io/stat525/content/homework/hw_8.pdf)
 * Homework 7: [`hw_7.pdf`](https://maryclare.github.io/stat525/content/homework/hw_7.pdf)
 * Homework 6: [`hw_6.pdf`](https://maryclare.github.io/stat525/content/homework/hw_6.pdf)
@@ -30,6 +31,7 @@ Homework
   - Solutions: [`hw_1_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.pdf), [`hw_1_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_1_solutions.Rmd)
   
 ## Data for Assignments
+* [`patient_satisfaction`](https://maryclare.github.io/stat525/content/homework/patient_satisfaction.RData)
 * [`CDI`](https://maryclare.github.io/stat525/content/homework/CDI.RData)
 * [`body_fat`](https://maryclare.github.io/stat525/content/homework/body_fat.RData)
 * [`grocery_retailer`](https://maryclare.github.io/stat525/content/homework/grocery_retailer.RData)
