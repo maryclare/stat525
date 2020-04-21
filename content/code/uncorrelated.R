@@ -31,4 +31,6 @@ anova(linmod.X2)
 anova(linmod.X1X2)
 anova(linmod.X2X1)
 
-
+summary(linmod.X1)
+summary(linmod.X1X2)
+summary(linmod.X2)

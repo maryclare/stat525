@@ -15,10 +15,6 @@ lm.X2 <- lm(Y~X2, data = data)
 lm.X1X2 <- lm(Y~X1 + X2, data = data)
 lm.X1X2X3 <- lm(Y~X1 + X2 + X3, data = data)
 
-summary(lm.X1)
-summary(lm.X1X2)
-summary(lm.X1X2X3)
-
 # How does this affect the coefficient estimates?
 b.ests <- data.frame("b1" = c(lm.X1$coefficients["X1"],
                               NA,
@@ -28,6 +24,7 @@ b.ests <- data.frame("b1" = c(lm.X1$coefficients["X1"],
                               lm.X2$coefficients["X2"],
                               lm.X1X2$coefficients["X2"],
                               lm.X1X2X3$coefficients["X2"]))
+b.ests
 
 # How does this effect the extra sums of squares?
 anova(lm(Y~X2, data = data))

@@ -14,11 +14,11 @@ pairs(data)
 cor(data$X1, data$X2)
 
 # Let's try fitting a linear model to this data
-linmod <- lm(Y~X1 + X2, data = data)
-summary(linmod.X1X2) # We get some warnings, and can't estimate
+linmod <- lm(Y ~ X1 + X2, data = data)
+summary(linmod) # We get some warnings, and can't estimate
                      # all of the parameters
 
-# We have b0 = 3, b1 = 1, corresponding fitted values:
+# We have b0 = 3, b1 = 1, b2 = 0, corresponding fitted values:
 linmod$fitted.values
 
 # What if we try different values of the regression coefficients?
