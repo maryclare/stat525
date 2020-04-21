@@ -29,6 +29,9 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * [`ipad_notes_032420.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_032420.pdf)
 
 ## Code
+* Multicollinearity: [`multicollinearity.R`](https://maryclare.github.io/stat525/content/code/multicollinearity.R)
+* Perfectly Correlated Predictors: [`perfectly_correlated.R`](https://maryclare.github.io/stat525/content/code/perfectly_correlated.R)
+* Uncorrelated Predictors: [`uncorrelated.R`](https://maryclare.github.io/stat525/content/code/uncorrelated.R)
 * Standardized Multiple Regression: [`standardized_multiple_regression.R`](https://maryclare.github.io/stat525/content/code/standardized_multiple_regression.R)
 * Extra Sums of Squares, Continued: [`extra_ss_continued.R`](https://maryclare.github.io/stat525/content/code/extra_ss_continued.R)
 * Extra Sums of Squares: [`extra_ss.R`](https://maryclare.github.io/stat525/content/code/extra_ss.R)
@@ -46,6 +49,9 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * Examples from A.1-A.5 of Appendix A: [`appendix_a_1-5.R`](https://maryclare.github.io/stat525/content/code/appendix_a_1-5.R)
 
 ## Additional Data
+* [`perfectly_correlated`](https://maryclare.github.io/stat525/content/homework/perfectly_correlated.RData)
+* [`uncorrelated`](https://maryclare.github.io/stat525/content/homework/uncorrelated.RData)
+* [`body_fat`](https://maryclare.github.io/stat525/content/homework/body_fat.RData)
 * [`dwaine`](https://maryclare.github.io/stat525/content/homework/dwaine.RData)
 * [`plutonium`](https://maryclare.github.io/stat525/content/homework/plutonium.RData)
 * [`sales`](https://maryclare.github.io/stat525/content/homework/sales.RData)

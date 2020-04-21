@@ -33,7 +33,6 @@ Homework
 ## Data for Assignments
 * [`patient_satisfaction`](https://maryclare.github.io/stat525/content/homework/patient_satisfaction.RData)
 * [`CDI`](https://maryclare.github.io/stat525/content/homework/CDI.RData)
-* [`body_fat`](https://maryclare.github.io/stat525/content/homework/body_fat.RData)
 * [`grocery_retailer`](https://maryclare.github.io/stat525/content/homework/grocery_retailer.RData)
 * [`brand_preference`](https://maryclare.github.io/stat525/content/homework/brand_preference.RData)
 * [`prostate_cancer`](https://maryclare.github.io/stat525/content/homework/prostate_cancer.RData)
