@@ -17,6 +17,7 @@ Homework
 * Homework 9: [`hw_9.pdf`](https://maryclare.github.io/stat525/content/homework/hw_9.pdf)
 * Homework 8: [`hw_8.pdf`](https://maryclare.github.io/stat525/content/homework/hw_8.pdf)
 * Homework 7: [`hw_7.pdf`](https://maryclare.github.io/stat525/content/homework/hw_7.pdf)
+  - Solutions: [`hw_7_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_7_solutions.pdf), [`hw_7_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_7_solutions.Rmd)
 * Homework 6: [`hw_6.pdf`](https://maryclare.github.io/stat525/content/homework/hw_6.pdf)
   - Solutions: [`hw_6_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_6_solutions.pdf), [`hw_6_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_6_solutions.Rmd)
 * Homework 5: [`hw_5.pdf`](https://maryclare.github.io/stat525/content/homework/hw_5.pdf)
