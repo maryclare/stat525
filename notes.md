@@ -8,6 +8,7 @@ Notes and Slides
 Please keep in mind that these will be updated periodically as I catch and am otherwise made aware of typos.
 
 ## Lecture Recordings
+* [Tuesday, April 28](https://umass-amherst.zoom.us/rec/share/uvMvMIrK11tIWs_D9l2HQ6gjB674eaa80SJKqfcEyhoqVmZ8BNCq8FyqzJ7Sw_tH?startTime=1588080493000)
 * [Thursday, April 21](https://umass-amherst.zoom.us/rec/share/y8Z6DLb-yEVOfdbNy2aCaKANRaW9T6a8hiQc-vUJyhoZSyZL9au3EdKIbp9jmz85?startTime=1587472369000)
 * [Tuesday, April 16](https://umass-amherst.zoom.us/rec/share/18VUNqmr-3lJYrfX7EWDArcTWbnoaaa82iZNqPAEyU2aukWTW6WDz3lt2mjUTqX6?startTime=1587040300000)
 * [Tuesday, April 14](https://umass-amherst.zoom.us/rec/share/puJ_ILrexkpJZ53mwm_GBYk5E9W_T6a823dN8vUOmEzzHwLWdrnGiRltnm-N_6fe?startTime=1586867547000)
@@ -20,6 +21,7 @@ Please keep in mind that these will be updated periodically as I catch and am ot
 * [Tuesday, March 24](https://umass-amherst.zoom.us/rec/share/5Z0oMq3pxE1OGIXr0hr8SLY8DKD0T6a82nJK-KAFykayEICFo2a0dnwHmWgYtU_2?startTime=1585053120000)
 
 ## Lecture Notes
+* [`ipad_notes_042820.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_042820.pdf)
 * [`ipad_notes_042120.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_042120.pdf)
 * [`ipad_notes_041620.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_041620.pdf)
 * [`ipad_notes_041420.pdf`](https://maryclare.github.io/stat525/content/notes/ipad_notes_041420.pdf)
