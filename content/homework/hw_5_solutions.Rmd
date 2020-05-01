@@ -131,7 +131,7 @@ To decide whether or not there is a linear association between amount of muscle 
 
 Because $F^* =`r msr/mse`$ and $F(0.99; 1; 82) = `r F.quantile.01`$, we would reject $H_0$ and conclude $H_a$.
 
-The $p$-value of the test is $P(F > F^*) = `r p.val`$, the probability that a $F$ random variable with $1$ and $82$ degrees of freedom is  greater than $F^*$ in absolute value.  This is identical to the $p$-value of the $t$ test we performed in last week's homework! The decision rules are also equivalent. The decision rule for the $t$ test was:
+The $p$-value of the test is $P(F > F^*) = `r p.val`$, the probability that a $F$ random variable with $1$ and $82$ degrees of freedom is  greater than $F^*$.  This is identical to the $p$-value of the $t$ test we performed in last week's homework! The decision rules are also equivalent. The decision rule for the $t$ test was:
 
 * If $t_{82}\left(0.005\right) \leq t^*  \leq t_{82}\left(0.995\right)$, conclude $H_0$
 * If $t^*  < t_{82}\left(0.005\right)$ or $t^*  > t_{82}\left(0.995\right)$, conclude $H_a$.

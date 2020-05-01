@@ -5,7 +5,7 @@ layout: stat525
 News
 -------
 * Friday 5/01/20
-   - Solutions to Homework 8 have been posted to the [Homework](https://maryclare.github.io/stat525/homework.html) page.
+   - Solutions to Homeworks 8 and 9 have been posted to the [Homework](https://maryclare.github.io/stat525/homework.html) page.
 * Thursday 4/28/20
    - The due date for the full final project has been extended to Thursday 5/07/20 at 5:00pm EST.
    - Lecture and slides from class have been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).

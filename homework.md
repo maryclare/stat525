@@ -15,6 +15,7 @@ Homework
 
 ## Assignments
 * Homework 9: [`hw_9.pdf`](https://maryclare.github.io/stat525/content/homework/hw_9.pdf)
+  - Solutions: [`hw_9_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_9_solutions.pdf), [`hw_9_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_9_solutions.Rmd)
 * Homework 8: [`hw_8.pdf`](https://maryclare.github.io/stat525/content/homework/hw_8.pdf)
   - Solutions: [`hw_8_solutions.pdf`](https://maryclare.github.io/stat525/content/homework/hw_8_solutions.pdf), [`hw_8_solutions.Rmd`](https://maryclare.github.io/stat525/content/homework/hw_8_solutions.Rmd)
 * Homework 7: [`hw_7.pdf`](https://maryclare.github.io/stat525/content/homework/hw_7.pdf)
