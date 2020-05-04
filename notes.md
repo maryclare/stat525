@@ -7,6 +7,9 @@ Notes and Slides
 
 Please keep in mind that these will be updated periodically as I catch and am otherwise made aware of typos.
 
+## Exam Preparation
+* Draft/Practice Final: [`ex_2_draft.pdf`](https://maryclare.github.io/stat525/content/exams/ex_2_draft.pdf)
+
 ## Lecture Recordings
 * [Tuesday, April 28](https://umass-amherst.zoom.us/rec/share/uvMvMIrK11tIWs_D9l2HQ6gjB674eaa80SJKqfcEyhoqVmZ8BNCq8FyqzJ7Sw_tH?startTime=1588080493000)
 * [Thursday, April 21](https://umass-amherst.zoom.us/rec/share/y8Z6DLb-yEVOfdbNy2aCaKANRaW9T6a8hiQc-vUJyhoZSyZL9au3EdKIbp9jmz85?startTime=1587472369000)

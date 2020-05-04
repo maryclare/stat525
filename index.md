@@ -4,6 +4,8 @@ layout: stat525
 
 News
 -------
+* Saturday 5/03/20
+   - A draft/practice final exam has been posted to the [notes page](https://maryclare.github.io/stat525/notes.html).
 * Friday 5/01/20
    - Solutions to Homeworks 8 and 9 have been posted to the [Homework](https://maryclare.github.io/stat525/homework.html) page.
 * Thursday 4/28/20
